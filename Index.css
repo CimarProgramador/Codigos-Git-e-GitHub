@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.menu-principal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem 20rem;
+    background-color: #5c5c5c;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #ff6600;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
 
 h1{
     font-size: 2rem;
